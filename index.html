@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hAI.Reclip</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 { font-size: 3rem; margin-bottom: 0.5rem; background: linear-gradient(90deg, #60a5fa, #a78bfa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .subtitle { opacity: 0.7; margin-bottom: 2rem; max-width: 500px; }
+    .gif-preview { max-width: 600px; border-radius: 12px; box-shadow: 0 0 40px rgba(96, 165, 250, 0.3); margin-bottom: 2rem; }
+    .links { display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
+    a { color: #60a5fa; text-decoration: none; padding: 0.6rem 1.2rem; border: 1px solid #60a5fa; border-radius: 8px; transition: all 0.2s; }
+    a:hover { background: #60a5fa; color: #0f172a; }
+    footer { margin-top: 3rem; opacity: 0.5; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <h1>hAI.Reclip</h1>
+  <p class="subtitle">Web-basiertes Media-Reclipping-Werkzeug – Docker-basiert, einfach zu starten.</p>
+  <img src="game.gif" alt="Preview" class="gif-preview">
+  <div class="links">
+    <a href="docs/">📄 Dokumentation</a>
+    <a href="https://github.com/jbkunama1/hAI.Reclip">🐙 GitHub</a>
+  </div>
+  <footer>MIT License · jbkunama1</footer>
+</body>
+</html>
